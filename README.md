@@ -6,13 +6,9 @@
 
 ![Last-Commit](https://img.shields.io/github/last-commit/erikdubois/surfn-papirus-grey?style=for-the-badge)
 
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/erikdubois?style=flat">&nbsp;&nbsp;<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/erikdubois/surfn-papirus-grey">&nbsp;&nbsp;<img alt="GitHub forks" src="https://img.shields.io/github/forks/erikdubois/surfn-papirus-grey">
-
-<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCJdmdUp5BrsWsYVQUylCMLg">&nbsp;&nbsp;<img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCJdmdUp5BrsWsYVQUylCMLg">
-
 ---
 
-A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Papirus-Grey** theme and inherits the base **Surfn** icon set, so `surfn-icons-git` is required.
+A Papirus folder colour for the [surfn-icons](https://github.com/erikdubois) icon theme. Ships only the **Surfn-Papirus-Grey** folder (places) icons in the **grey** colour and inherits the base set, so `surfn-icons-git` is required. Folders sourced from [PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
@@ -20,13 +16,6 @@ A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
 sudo pacman -S surfn-papirus-grey-icons-git
 ```
 
-`surfn-icons-git` (base Surfn) is pulled in automatically as a dependency.
-
-## Manual
-
-Copy the **Surfn-Papirus-Grey** icon folder into `~/.icons` (or `~/.local/share/icons` on Plasma),
-make sure the base `Surfn` theme is present, then select **Surfn Papirus Grey** in your appearance settings.
-
 ## License
 
-[LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International.
+[LICENSE](./LICENSE) — GPL-3.0, following the Papirus upstream.
